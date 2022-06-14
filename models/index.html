@@ -86,24 +86,25 @@
                 <!-- Start content here -->
 
 <!-- Jumbotron -->
-<div class="jumbotron p-0">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
 
-  <!-- Card image -->
-  <div class="view overlay rounded-top">
-    <img src="/assets/images/Candy_Cover_Patreon_Cover.png" class="img-fluid" alt="Sample image">
-  </div>
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
 
-  <!-- Card content -->
-  <div class="card-body text-center mb-3">
-  	<h5 class="Splatoon2 card-title h3 my-4">Download Any Model(s) here</h5>
-	<p class="Splatoon2 card-text py-2">Here you can find my models!</p>
-	<p class="Splatoon2 card-text py-2">all models are available for Blender. for a few sfm/gmod ports, check out my sfmlab account or my steam account. anyways, enjoy using my models and remember to give credit when using/editing them! :)</p>
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
 
-    <p class="Splatoon2"><a target="_blank" href="/models/"><button type="button" class="btn elegant-color-dark text-white">Download Any Model you wish to Download</button></a></p>
-
-
-  </div>
-
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
 </div>
 <!-- Jumbotron -->
 
