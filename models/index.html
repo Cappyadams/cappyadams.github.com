@@ -86,25 +86,43 @@
                 <!-- Start content here -->
 
 <!-- Jumbotron -->
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
+<div class="row no-gutters">
+  <div class="col-md-3 px-3 mb-3">
+    <ul class="nav nav-tabs row card-header-tabs">
+      <li class="col-12 mb-1"><a class="btn bg-faded btn-block btn-outline-secondary active" data-toggle="tab" href="#vert1">Tab1</a></li>
+      <li class="col-12 mb-1"><a class="btn bg-faded btn-block btn-outline-secondary" data-toggle="tab" href="#vert2">Tab2</a></li>
+      <li class="col-12 mb-1"><a class="btn bg-faded btn-block btn-outline-secondary" data-toggle="tab" href="#vert3">Tab3</a></li>
+      <li class="col-12 mb-1"><a class="btn bg-faded btn-block btn-outline-secondary" data-toggle="tab" href="#vert4">Tab4</a></li>
+    </ul>
+  </div>
 
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
+  <div class="col-md-9">
+    <div class="tab-content">
+      <div class="tab-pane fade active show" id="vert1">
+        <div class="card p-3">
+          <div class="p-3">Text1</div>
+        </div>
+      </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
+      <div class="tab-pane fade" id="vert2">
+        <div class="card p-3">
+          <div class="p-3">Text2</div>
+        </div>
+      </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+      <div class="tab-pane fade" id="vert3">
+        <div class="card p-3">
+          <div class="p-3">Text3</div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="vert4">
+        <div class="card p-3">
+          <div class="p-3">Text4</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- Jumbotron -->
 
