@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home - CappyAdams</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home - CappyAdams</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href=".css">
+
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <style>
+      .protest-riot-regular {
+            font-family: "Protest Riot", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+      body {
+        font-family: "Protest Riot", sans-serif;
+        text-align: center;
+        font-size: 20px;
+      }
+      .bestgal{
+        background-image: url('/assets/images/bestgal.png');
+        background-repeat: repeat;
+      }
+      </style>
+      </head>
+<style>
+
+</style>
+    <!-- Main Stuff -->
+
+    <div id="container" style="padding-top: 2em; padding-bottom: 2em">
+      <div id="main">
+  
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="page-header">
+              <h1 class="display-4 pb-2 text-center">CappyAdams</h1>
+            </div>
+            <div class="page-header">
+              <a href="index.html" class="btn btn-info btn-lg" role="button">Home</a>
+              <a href="downloads.html" class="btn btn-info btn-lg" role="button">Downloads</a>
+              <a href="tos.html" class="btn btn-info btn-lg" role="button">TOS</a>
+              <a href="projects.html" class="btn btn-info btn-lg" role="button">Projects</a>
+              <a href="commissions.html" class="btn btn-info btn-lg" role="button">Commissions</a>
+              <a href="Tutorials.html" class="btn btn-info btn-lg" role="button">Tutorials</a>
+              <a href="ai.html" class="btn btn-info btn-lg" role="button">For AI creators</a>
+              <a href="aboutme.html" class="btn btn-info btn-lg" role="button">About Me</a>
+            </div>
+
+  <body>
+    <div class="jumbotron p-0">
+      <p><s>uploaded on 06/04/2024</s></p>
+      <h1>VRoid 2 Blender Tutorial</h1>
+      <p>I assume you wish to start rigging VRoid models for animations, renders, etc. Well, you'll learn how to do so here!</p>
+      <p>--------------</p>
+      <h1>WARNING!:</h1>
+      <p>This tutorial has been only confirmed to work with VRM0.0 and I have no idea if this works with VRM1.0... You can always try this rigging method with VRM1.0 but it might not work.</p>
+      <p>--------------</p>
+      <h1>IMPORTANT!:</h1>
+      <p>This tutorial requires Blender quite a bit of Blender knowledge. I'll try to explain some things but it would be better and easier if you already know atleast SOME bits of Blender.</p>
+      <p>--------------</p>
+      <p>SECTIONS:</p>
+      <p><a href="#vroid-2-blender-beginning">Beginning</a></p>
+      <p><a href="#vroid-2-blender-Unity">Unity Editing</a></p>
+      <p><a href="#vroid-2-blender-blend-beginning">Material Editing</a></p>
+      <p><a href="#vroid-2-blender-materials">Material Editing</a></p>
+      <p><a href="#vroid-2-blender-rigging">Rigging</a></p>
+      <p>--------------</p>
+      <h1>YOU'LL NEED:</h1>
+      <p>-<a href="https://vroid.com/en/studio">VRoid Studio</a> (Duh!)</p>
+      <P>-A computer that meets Blender's <a href="https://www.blender.org/download/requirements/">requirements</a></P>
+      <p>-<a href="https://www.blender.org">Blender 4.1</a> or above</p>
+      <p>-<a href="https://unity.com">Unity</a> (OPTIONAL BUT RECOMMENDED)</p>
+      <p>-<a href="https://github.com/vrm-c/UniVRM">UniVRM</a> (OPTIONAL BUT RECOMMENDED)</p>
+      <p>-<a href="https://youtu.be/Q1_obTcE_uE?si=PaxGKQNYJAKXXDst">NEB</a> (OPTIONAL BUT RECOMMENDED)</p>
+      <p>-<a href="https://github.com/Yusarina/Cats-Blender-Plugin-Unofficial-">Cats Blender Addon</a></p>
+      <p>-<a href="https://github.com/saturday06/VRM-Addon-for-Blender">VRM Addon for Blender</a></p>
+      <p>-<a href="https://github.com/nanoskript/vrm-rigify">VRM Rigify</a></p>
+      <p>-Rigify (Addon built inside Blender)</p>
+      <p>-<a href="https://github.com/hinzka/52blendshapes-for-VRoid-face">ARKit VRoid Models</a> (OPTIONAL BUT RECOMMENDED)</p>
+      <p>--------------</p>
+      <p></p>
+      <section id="vroid-2-blender-beginning">
+        <h1>The Beginning: VRoid Stuff</h1>
+        <p>Alrighty! Let's get started!</p>
+        <p>First of all, We need to make our model. I won't be covering everything about VRoid in this tutorial.. If you don't know how to use VRoid yet, You can go to youtube and look for tutorials.</p>
+        <p></p>
+        <p>For this tutorial I'll be using this my model of a character who I call Alex</p>
+        <img src="tutorial_assets/VRoid_2_Blender/1.png" alt="Alex hehe">
+        <p>Now we have to take a look at the export settings. If you plan on copying blendshapes/shapekeys, You <u>HAVE</u> to untick the "Delete Transparent Meshes" box. If you don't plan on adding ARkit blendshapes, you can keep the box ticked.</p>
+        <img src="tutorial_assets/VRoid_2_Blender/2.png" alt="booboo">
+      </section>
+      <section id="vroid-2-blender-Unity">
+        <h1>Unity Editing (OPTIONAL BUT RECOMMENDED!!)</h1>
+        <p><u>Note:</u></p>
+        <p>This section is completely optional. however, If you wish to have more blendshapes/shapekeys that will allow you to make more facial expressions then you need to do this part.</p>
+        <p></p>
+        <p>Alright so, now that you've exported your model, open Unity and make a new 3D project. Once the project has been created, The Unity project should open automaticlly. Now import UniVRM into your project by dragging the unity package into the program. then make a new folder by right clicking in the assets box. Enter the folder and drag your VRM file into the folder. after the model is imported, drag the prefab into the hierarchy.</p>
+        <p>After that, drag the NEB unity package into the assets and import the package into your project. Now go to the NEB folder and drag the NEB prefab into your hierarchy. Now what you want to do is go back to assets and import the ARKit VRoid model <s>(I recommend using the female version).</s> after that, drag the ARKit model into the hierarchy and click on the NEB prefab in the hierarchy <u>(for me it's called "_NEBLite". If you're using NEBPro, it might have a different namme).</u> Drag the ARKit model into the "Source Model" and your custom model in the "Target Model" and then click "Copy Blendshapes"</p>
+        <img src="tutorial_assets/VRoid_2_Blender/3.png" alt="Boop">
+        <p>If you find this part difficult to understand, You can watch this video made by the creator of NEB</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q1_obTcE_uE?si=_1JvJNP-e2jgp25c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Now, once you're done with editing your model in Unity, you can export the model by going to the "VRM0" button on the top and clicking the export button.</p>
+      </section>
+      <section id="#vroid-2-blender-blend-beginning">
+        <h1>The Blender Beginning</h1>
+        <p>It's finally time to convert the model to Blender! but before we do anything, We gotta install our addons (All listed in the "You'll need" section). To install the addons, go to edit, preferences, Add-ons and then install the addons.</p>
+        <p><i><u>DO NOT UNZIP YOUR ADDONS!</u></i></p>
+        <img src="tutorial_assets/VRoid_2_Blender/4.png" alt="Blender Addon nonsense">
+        <p><s><i>Don't forget to delete the default cube!... unless you want it there.</i></s></p>
+        <p>After you've installed all the addons, go to File, Import, VRM and find your VRM file.</p>
+        <p></p>
+        <p>Now! Let's go edit the materials!</p>
+      </section>
+      <section id="vroid-2-blender-materials">
+        <h1>Material Editing</h1>
+        <h3>IMPORTANT!</h3>
+        <p>before I made this guide, I made some shaders for VRoid Blender models. so if you want a nicer look to your models, You can download the shaders <a href="https://github.com/Cappyadams/VRoid2Blender-SHADERS">here</a></p>
+        <div class="img-comp-container">
+          <div class="img-comp-img">
+            <img src="tutorial_assets/VRoid_2_Blender/5.png" width="512" height="512">
+          </div>
+          <div class="img-comp-img img-comp-overlay">
+            <img src="tutorial_assets/VRoid_2_Blender/6.png" width="512" height="512">
+          </div>
+        </div>
+        <p>Go to the shading tab and select one of the meshes of your model. click on the red "Material Properties" button and untick "Enable VRM MToon Material" and add your textures. Materials with normal maps should look like this</p>
+        <img src="tutorial_assets/VRoid_2_Blender/7.png" alt="">
+      </section>
+      <section id="vroid-2-blender-rigging">
+        <h1>Rigging</h1>
+        <P>This part <i>should</i> be pretty simple since I won't be covering the super advanced. so let's just get into this.</P>
+        <p>so, before you do anything, go to the CATs addon, Optimization, Bones, Delete: Zero Weight Bones.</p>
+        <p>Now press the F3 key in Blender while hovering over the 3D viewport. search for "VRM Rigify" and click the "Generate Humanized VRM Rig"</p>
+        <img src="tutorial_assets/VRoid_2_Blender/8.png" alt="Searchy idk">
+        <p>After the rig has been generated, Do what I do in this video</p>
+        <p><s>I'm putting this part in a video format because it's a little too hard for me to explain.</s></p>
+        <iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/y2ZSiIZQ#ouCggjDDX-3kCecZJO28NKxqv5rm4m5Rbqs6KovcWIg" allowfullscreen ></iframe>
+      </section>
+      <h1>You did it!</h1>
+      <p>You made a simple enough VRoid2Blender rig! Now, It's not exactly the same as most of my rigs as my rigs are alot more complex. I <i>might</i> do a part 2 of this tutorial, where I'll include parts where I do add drivers to shapekeys and some other stuff. so yeah!</p>
+      <p>Anyways, Happy Blending everyone! I hope the tutorial was useful :3</p>
+      <!-- begin wwww.htmlcommentbox.com -->
+      <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+      <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+      <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24393fdLA5WLwjs6nWRGlwe1"+"&opts=16798&num=10&ts=1712407836152");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+    </div>
+    </div>
+    <div class="well well-lg">Copyright CappyAdams © 2022 - 2024</div>
+  </body>
+</html>
