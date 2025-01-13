@@ -1,0 +1,29 @@
+:root {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --header-background: #1e1e1e;
+    --menu-hover-background: rgba(187, 134, 252, 0.1);
+    --menu-active-color: #86b9fc;
+    --logo-gradient-start: #86b9fc;
+    --logo-gradient-end: #4d68ff;
+    --button-background: #86b9fc;;
+    --button-color: #121212;
+    --button-hover-background: #4d68ff;
+    --link-color: #86b9fc;;
+    --link-hover-color: #4d68ff;
+    --border-color: #333333;
+    --footer-text-color: #a0a0a0;
+}
+
+.wiki-content {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.faq-question:hover {
+    background: linear-gradient(45deg, var(--header-background), var(--menu-hover-background));
+}
+
+code {
+    background: #2d2d2d;
+    border: 1px solid var(--border-color);
+}
